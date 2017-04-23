@@ -1,6 +1,57 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>这是我使用github pages搭建的个人站点。</h1>
-</body>
+<html lang="en">
+<head>
+<title>C6H5NO2</title>
+<!-- Meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- stylesheet -->      
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script><!-- Supportive-JavaScript -->
+</head>
+  <body>
+	<!-- main-section -->
+		<div class="container demo-1">
+			<div class="content">
+				<div id="large-header" class="large-header">
+					<canvas id="myCanvas"></canvas>
+					<div class="main-title">
+						<h1>National Matriculation Examination is Approaching</h1>
+						<div class="demo2"></div>
+						<p class="agileinfo txt-center"> Hasn't been completed yet|Will purchase a domain soon|Design by <a href="http://w3layouts.com/"> W3layouts</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- Counter required files -->
+		<link rel='stylesheet' href='css/dscountdown.css' type='text/css' media='all' />
+		<script type="text/javascript" src="js/dscountdown.min.js"></script>
+		<script src="js/demo-1.js"></script>
+		<script>
+			jQuery(document).ready(function($){						
+				$('.demo2').dsCountDown({
+					endDate: new Date("June 07, 2018 09:00:00"),
+					theme: 'black'
+					});								
+			});
+		</script>
+	<!-- particles effect -->
+		<script src="js/particles.min.js"></script>
+		<script>
+		  window.onload = function() {
+			Particles.init({
+			  selector: '#myCanvas',
+			  color: '#6a446b',
+			  connectParticles: true,
+			  minDistance: 70
+			});
+		  };
+		</script>
+  </body>
 </html>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
