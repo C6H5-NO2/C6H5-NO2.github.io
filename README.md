@@ -1,2 +1,2 @@
 # JimboVong.github.io
-This is my personal website, which hasn't been completed yet.
+My personal website, still working on it.
