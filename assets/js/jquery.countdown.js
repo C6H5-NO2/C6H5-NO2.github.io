@@ -1,6 +1,5 @@
 ﻿$(document).ready(function(){
 	init();
-	setCountDown();
 });
 function init()
 {
@@ -9,6 +8,7 @@ function init()
 				'<div class="span3 counter-block"><span id="hours-num">0</span><h4 id="hours-desc">Hours</h4></div>' +
 				'<div class="span3 counter-block"><span id="min-num">0</span><h4 id="min-desc">Minutes</h4></div>' +
 				'<div class="span3 counter-block"><span id="sec-num">0</span><h4 id="sec-desc">Seconds</h4></div>');
+	setCountDown();
 }
 function checkTime(time)
 {return time<10?"0"+time:time;}

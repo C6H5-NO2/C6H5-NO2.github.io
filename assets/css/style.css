@@ -279,7 +279,7 @@ html, body {
 }
 #wrap2 {
 	overflow: auto;
-	padding-bottom: 161px;
+	padding-bottom: 0px;
 }
 footer {
 	position: relative;
